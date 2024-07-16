@@ -39,8 +39,8 @@ const Reset: React.FC<ResetProps> = ({ onBackToLogin }) => {
             />
           </div>
           <div>
-            <button
-              className="bg-transparent hover:bg-blue-500 text-white hover:text-white font-bold py-2 px-4 rounded border border-white hover:border-transparent focus:outline-none focus:shadow-outline w-full"
+          <button
+              className="bg-transparent hover:bg-teal-400 text-white hover:text-white font-bold py-2 px-4 rounded border border-white hover:border-transparent focus:outline-none focus:shadow-outline w-full"
               type="button"
             >
               Reset Password
@@ -48,7 +48,7 @@ const Reset: React.FC<ResetProps> = ({ onBackToLogin }) => {
           </div>
         </form>
         <div className="flex items-center justify-center mt-6">
-          <a className="inline-block align-baseline font-bold text-sm text-white hover:text-blue-800" href="#" onClick={onBackToLogin}>
+          <a className="inline-block align-baseline font-bold text-sm text-white hover:text-teal-400" href="#" onClick={onBackToLogin}>
             Back to Login
           </a>
         </div>
