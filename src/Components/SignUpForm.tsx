@@ -28,7 +28,7 @@ const SignUpForm: React.FC = () => {
             <input type="password" className="w-full px-4 py-2 mt-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-blue-600" placeholder="Enter your Password" />
           </div>
           <button
-              className="bg-transparent hover:bg-blue-500 text-white hover:text-white font-bold py-2 px-4 rounded border border-white hover:border-transparent focus:outline-none focus:shadow-outline w-full"
+              className="bg-transparent hover:bg-teal-400 text-white hover:text-white font-bold py-2 px-4 rounded border border-white hover:border-transparent focus:outline-none focus:shadow-outline w-full"
               type="button"
             >
               Sign Up
